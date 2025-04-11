@@ -1,0 +1,76 @@
+/*Primeiros passos do css*/
+body {
+    background-color: rgb(136, 191, 241);
+    border: black solid 1px;
+}
+p {
+text-align: center;
+margin: 20px auto;
+
+}
+.imgs{
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerAudio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerh1{
+    text-align-last: center;
+    background-color: blue;
+    border-radius: 16px;
+    transition: all 500ms;
+    width: 250px;
+}
+.containerh1:hover{
+    background-color: wheat;
+    transition: all 500ms;
+    color: black;
+}
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: black;
+    cursor: pointer;
+    transition: all 500ms;
+}
+a:hover{
+    background-color: beige;
+    transition: all 500ms;
+
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+caption{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+.containertable1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
